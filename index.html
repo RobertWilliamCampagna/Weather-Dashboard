@@ -8,27 +8,36 @@
     <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-
     <!-- Header -->
     <header>
             <h1 class="bg-dark text-light text-center">Weather Application</h1>
     </header>
-
     <!-- Main Display -->
     <main class="container-fluid d-flex">
 
         <!-- Search Form -->
-         <form class="searchBar bg-light col-4">
+         <section id="searchContainer col-4">
              <h5 class="text-dark">Search for a City:</h5>
-             <input id="searchCity" type="text" placeholder="Search for a city..."/>
-             <button type="submit" class="btn btn-primary" id="searchButton" style="margin-bottom: 10px;" >Search
+             <input class="searchControl" id="searchInput" type="text" placeholder="Search for a city..."/>
+             <button class="searchControl" id="searchBtn" style="margin-bottom: 10px;" >Search
                 <i class="fa fa-search"></i></button>
                 <div class="card" id="locationResult"></div>
-         </form>
+             </section>
 
          <!-- Weather Display -->
          <section class="rightContainer col-8 border">
-                <div id="weatherDisplay"></div>
+                <div id="weatherDisplay">
+                    <h1 id="cityHeader"></h1>
+                    <div id="weatherMain">
+                        <div id="temperature"></div>
+                        <div id ="weatherDescriptionHeader"></div>
+                        <div><img id="documentIconImg"></div>
+                    </div>
+                    <hr>
+                        <div id="windSpeed" class="bottomDetails""></div>
+                        <div id="humidity" class="bottomDetails"></div>
+                    </div>
+                </div>
          </section>
 
     </main>
@@ -84,5 +93,8 @@
         </div>
     </section>
 
+
+    <script src="assets/js/script.js"></script>
+</body>
 
     
