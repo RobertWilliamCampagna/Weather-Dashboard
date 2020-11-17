@@ -6,6 +6,14 @@ h1{
 }
 
 
+.five-day{
+    margin-left: 350px;
+    ;
+}
+
+.card{
+    margin: 0 0 0 8px;
+}
 
 /*.jumbotron h1{
     display: flex;
