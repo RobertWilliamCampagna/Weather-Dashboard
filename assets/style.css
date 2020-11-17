@@ -1,10 +1,16 @@
 body{
-    background-color: rgb(207, 220, 224);
-}
-h1{
-    color: rgb(10, 10, 151);
+    background-color: rgb(203, 225, 255);
 }
 
+h1{
+    color: rgb(188, 202, 255);
+}
+
+.rightContainer h1{
+    color: rgb(8, 8, 255);
+
+
+}
 
 .five-day{
     margin-left: 350px;
