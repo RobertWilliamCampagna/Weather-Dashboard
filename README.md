@@ -1,4 +1,5 @@
 # Weather-Dashboard
+This Weather Dashboard uses HTML, CSS, Bootstrap, Jquery, to fetch information from openweather API to generate current information for whichever city user desires.  Displays current day, temp, wind, humidity and UV INDEX.
 
 GIVEN a weather dashboard with form inputs<br>
 WHEN I search for a city<br>
@@ -13,3 +14,5 @@ WHEN I click on a city in the search history<br>
 THEN I am again presented with current and future conditions for that city
 
 <img src="https://i.imgur.com/LOBDCoN.png">
+
+Test
